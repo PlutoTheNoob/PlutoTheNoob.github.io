@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rashad (PlutoTheNoob) · GitHub Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif;}
+    body {background: #0d1117; color: #c9d1d9; line-height: 1.6; padding: 2rem;}
+    a {color: #58a6ff; text-decoration: none;}
+    a:hover {text-decoration: underline;}
+
+    .container {max-width: 1000px; margin: auto; display: grid; grid-template-columns: 280px 1fr; gap: 2rem;}
+    @media(max-width: 800px) {.container {grid-template-columns: 1fr;}}
+
+    .sidebar {background: #161b22; border-radius: 10px; padding: 1.5rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3);}
+    .sidebar img {width: 120px; height: 120px; border-radius: 50%; margin-bottom: 1rem; border: 3px solid #30363d;}
+    .sidebar h1 {font-size: 1.4rem; color: #fff;}
+    .sidebar h2 {font-size: 0.9rem; color: #8b949e; margin-bottom: 0.8rem;}
+    .bio {font-size: 0.95rem; color: #8b949e; margin-bottom: 1.2rem;}
+
+    .stats {display: flex; justify-content: space-around; margin: 1rem 0;}
+    .stat {text-align: center;}
+    .stat strong {display: block; color: #fff; font-size: 1.1rem;}
+    .stat span {font-size: 0.85rem; color: #8b949e;}
+
+    .links a {display: block; background: #238636; color: #fff; padding: 0.6rem; margin-top: 0.5rem; border-radius: 6px; transition: 0.3s;}
+    .links a:hover {background: #2ea043;}
+
+    .content {display: flex; flex-direction: column; gap: 1.5rem;}
+    .card {background: #161b22; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3);}
+    .card h3 {color: #fff; margin-bottom: 0.5rem;}
+    .card p {color: #8b949e; font-size: 0.95rem;}
+
+    .projects {display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;}
+    .project {background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; transition: transform 0.2s;}
+    .project:hover {transform: translateY(-3px);}
+    .project img {width: 100%; border-radius: 6px; margin-bottom: 0.5rem;}
+    .project h4 {color: #fff; margin-bottom: 0.3rem;}
+    .project p {font-size: 0.9rem; color: #8b949e;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-1/471634466_1751987435578791_1801494113997634347_n.jpg?stp=cp6_dst-jpg_s160x160_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=oGcCrhL_mL0Q7kNvwF0NLLB&_nc_oc=Adk58q9rwT9_gDVg56xs1mBjavlqS_dLtT37U2vwi-MHM_lvgguDyiOOyUc0hmhbXvY&_nc_zt=24&_nc_ht=scontent.fcai19-9.fna&_nc_gid=PIEx4vTZJsPFoozVVFRCAw&oh=00_AfenpAh6tfGotWwzPxvnKu3GqHyJRauRTQvMyi7b0fUEWg&oe=68F9C21D" alt="Profile Picture">
+      <h1>Rashad (PlutoTheNoob)</h1>
+      <h2>Software Developer · Open Source</h2>
+      <p class="bio">Hi — I'm Rashad (aka <strong>PlutoTheNoob</strong>). I build all sorts of apps, Java projects, and AI tools. Explore my work on <a href="https://github.com/PlutoTheNoob" target="_blank">GitHub</a>.</p>
+      <div class="stats">
+        <div class="stat"><strong>6</strong><span>Repositories</span></div>
+        <div class="stat"><strong>3</strong><span>Followers</span></div>
+      </div>
+      <div class="links">
+        <a href="https://github.com/PlutoTheNoob" target="_blank">View GitHub Profile</a>
+        <a href="mailto:ahmedrashadd63@gmail.com">Contact Me</a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="card">
+        <h3>About</h3>
+        <p>I’m passionate about automation, data, and open-source development. I focus on Java and Python projects, especially AI-based and Discord integration tools.</p>
+      </section>
+
+      <section class="card">
+        <h3>Top Projects</h3>
+        <div class="projects">
+          <div class="project">
+            <img src="https://opengraph.githubassets.com/1/PlutoTheNoob/Discord-bot" alt="Discord Bot">
+            <h4>Discord-bot</h4>
+            <p>A Java-based Discord bot project — automations and utilities for servers.</p>
+          </div>
+
+          <div class="project">
+            <img src="https://opengraph.githubassets.com/1/PlutoTheNoob/AI-passenger-satisfaction-prediction-GUI" alt="AI Passenger">
+            <h4>AI Passenger Satisfaction</h4>
+            <p>GUI app using AI models to predict passenger satisfaction.</p>
+          </div>
+
+          <div class="project">
+            <img src="https://opengraph.githubassets.com/1/PlutoTheNoob/AI-Medical-diagnosis" alt="AI Medical Diagnosis">
+            <h4>AI Medical Diagnosis</h4>
+            <p>Machine learning models for health diagnostics — early prototype project.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Contact</h3>
+        <p>Want to collaborate or ask a question? Feel free to reach out via GitHub or email.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
